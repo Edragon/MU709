@@ -1,0 +1,226 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\4817\Default\8\HUAWEI_MODEM_PORT]
+"Prefix"="COM"
+"Dll"="PPPVSP.DLL"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\Default\Default\Default\HUAWEI_MODEM_PORT]
+"Prefix"="COM"
+"Dll"="PPPVSP.DLL"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\ClientDrivers\HUAWEI_MODEM_PORT]
+"Prefix"="COM"
+"DeviceType"=dword:00000001
+"RxBufferSize"=dword:00006000
+"Dll"="PPPVSP.DLL"
+"DeviceName"="PPPVSP1:"
+"DeviceArrayIndex"=dword:00000000
+"Tsp"="Unimodem.dll"
+"PortStatusTimeout"=dword:000007d0
+"DeviceIdTimeout"=dword:000007d0
+"SoftResetTimeout"=dword:000007d0
+"ReadTimeoutMultiplier"=dword:0000000a
+"ReadTimeoutConstant"=dword:00000064
+"WriteTimeoutMultiplier"=dword:00000032
+"WriteTimeoutConstant"=dword:000003e8
+"InterfaceIndex"=dword:00000000
+"IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\Default\Default\Default\HUAWEI_PCUI_PORT]
+"Prefix"="COM"
+"Dll"="PPPVSP.DLL"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\ClientDrivers\HUAWEI_PCUI_PORT]
+"Prefix"="COM"
+"DeviceType"=dword:00000001
+"RxBufferSize"=dword:00006000
+"Dll"="PPPVSP.DLL"
+"DeviceName"="PPPVSP1:"
+"DeviceArrayIndex"=dword:00000000
+"Tsp"="Unimodem.dll"
+"PortStatusTimeout"=dword:000007d0
+"DeviceIdTimeout"=dword:000007d0
+"SoftResetTimeout"=dword:000007d0
+"ReadTimeoutMultiplier"=dword:0000000a
+"ReadTimeoutConstant"=dword:00000064
+"WriteTimeoutMultiplier"=dword:00000032
+"WriteTimeoutConstant"=dword:000003e8
+"IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\Default\Default\Default\HUAWEI_DIAG_PORT]
+"Prefix"="COM"
+"Dll"="PPPVSP.DLL"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\ClientDrivers\HUAWEI_DIAG_PORT]
+"Prefix"="COM"
+"DeviceType"=dword:00000001
+"RxBufferSize"=dword:00006000
+"Dll"="PPPVSP.DLL"
+"DeviceName"="PPPVSP1:"
+"DeviceArrayIndex"=dword:00000000
+"Tsp"="Unimodem.dll"
+"PortStatusTimeout"=dword:000007d0
+"DeviceIdTimeout"=dword:000007d0
+"SoftResetTimeout"=dword:000007d0
+"ReadTimeoutMultiplier"=dword:0000000a
+"ReadTimeoutConstant"=dword:00000064
+"WriteTimeoutMultiplier"=dword:00000032
+"WriteTimeoutConstant"=dword:000003e8
+"IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\Default\Default\Default\HUAWEI_GPS_PORT]
+"Prefix"="COM"
+"Dll"="PPPVSP.DLL"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\ClientDrivers\HUAWEI_DIAG_PORT]
+"Prefix"="COM"
+"DeviceType"=dword:00000001
+"RxBufferSize"=dword:00006000
+"Dll"="PPPVSP.DLL"
+"DeviceName"="PPPVSP1:"
+"DeviceArrayIndex"=dword:00000000
+"Tsp"="Unimodem.dll"
+"PortStatusTimeout"=dword:000007d0
+"DeviceIdTimeout"=dword:000007d0
+"SoftResetTimeout"=dword:000007d0
+"ReadTimeoutMultiplier"=dword:0000000a
+"ReadTimeoutConstant"=dword:00000064
+"WriteTimeoutMultiplier"=dword:00000032
+"WriteTimeoutConstant"=dword:000003e8
+"IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\Default\Default\Default\HUAWEI_CTL_PORT]
+"Prefix"="COM"
+"Dll"="PPPVSP.DLL"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\ClientDrivers\HUAWEI_DIAG_PORT]
+"Prefix"="COM"
+"DeviceType"=dword:00000001
+"RxBufferSize"=dword:00006000
+"Dll"="PPPVSP.DLL"
+"DeviceName"="PPPVSP1:"
+"DeviceArrayIndex"=dword:00000000
+"Tsp"="Unimodem.dll"
+"PortStatusTimeout"=dword:000007d0
+"DeviceIdTimeout"=dword:000007d0
+"SoftResetTimeout"=dword:000007d0
+"ReadTimeoutMultiplier"=dword:0000000a
+"ReadTimeoutConstant"=dword:00000064
+"WriteTimeoutMultiplier"=dword:00000032
+"WriteTimeoutConstant"=dword:000003e8
+"IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
+
+[HKEY_LOCAL_MACHINE\Comm\PPPVSP]
+"DisplayName"="USB-PPP Port Driver"
+"Group"="Serial"
+"ImagePath"="PPPVSP.DLL"
+
+[HKEY_LOCAL_MACHINE\Drivers\Unimodem\Init]
+"1"="AT<cr>"
+"2"="ATE0V1&C1&D2<cr>"
+"3"="ATE0<cr>"
+"4"="AT+cgdcont=1,\"ip\",\"cmnet\"<cr>"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"Start Page"="http://www.google.com"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent]
+"Template"="Same as Windows XP"
+
+[HKEY_CURRENT_USER\ControlPanel\Dial]
+"CurrentLoc"=dword:00000002
+"HighLocID"=dword:00000003
+
+[HKEY_CURRENT_USER\ControlPanel\Dial\Locations]
+"2"=hex(7):4d,49,44,3f,3f,3f,3f,3f,3f,47,3f,3f,3f,3f,3f,3f,47,3f,3f,3f,3f,3f,\
+  3f,47,3f,3f,3f,3f,3f,3f,00,00
+
+[HKEY_CURRENT_USER\RemoteAccess]
+"InternetProfile"="Modem Connection"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections]
+"Modem Connection"=hex:3c,00,00,00,04,00,00,00,03,00,00,00,0d,00,00,00,31,30,\
+  2e,30,2e,30,2e,31,37,32,3a,38,30,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_CURRENT_USER\Comm\RasBook\Modem Connection]
+"Entry"=hex:08,02,40,00,00,00,00,00,01,00,00,00,34,00,32,00,35,00,00,00,04,00,\
+  00,00,cc,cc,00,00,00,00,00,00,00,00,2a,00,39,00,39,00,23,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,6d,00,\
+  6f,00,64,00,65,00,6d,00,00,00,30,1d,f9,03,8c,ef,04,18,d4,7d,f7,03,30,6b,45,02,\
+  00,00,00,00,94,5c,43,00,4f,00,4d,00,34,00,3a,00,00,00,0f,00,ac,ef,04,18,00,00,\
+  00,00,00,00,00,00,15,00,00,00,15,00,00,00,20,e9,45,02,90,1a,0f,00,00,00,00,00,\
+  00,00,00,00,9c,1a,0f,00,18,f4,04,18,08,f4,04,18,0c,f0,04,18,ff,ff,00,00,00,00,\
+  00,00,9c,13,0f,00,00,00,00,00,09,00,00,00,00,00,00,00,18,00,00,00,0c,00,00,00,\
+  20,e9,45,02,90,1a,0f,00,8c,ef,04,18,00,00,00,00,00,00,00,00,30,f4,04,18,50,f4,\
+  04,18,88,24,f9,03,fd,00,00,00,00,00,00,00,a8,db,06,04,00,00,06,04,30,00,06,04,\
+  58,00,00,00,60,00,00,00,00,00,00,04,00,00,00,00,78,27,f9,03,00,00,00,00,01,00,\
+  00,80,82,ab,69,27,54,ef,04,18,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,01,00,00,00,6d,00,6f,00,64,00,65,00,6d,00,00,00,01,00,\
+  00,80,00,00,00,00,28,fb,01,00,24,f1,04,18,01,00,00,80,03,00,43,00,4f,00,4d,00,\
+  34,00,3a,00,00,00,00,00,c8,0f,04,00,00,00,00,00,01,00,00,80,13,00,00,00,14,00,\
+  00,00,15,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,2a,00,00,00,2a,00,00,00,\
+  10,f0,04,18,00,00,00,00,10,f0,04,18,00,00,00,00,00,00,00,00,88,24,f9,03,f0,a8,\
+  01,7c,00,00,00,00,68,dc,06,04,00,00,06,04,30,00,06,04,4a,00,00,00,60,00,00,00,\
+  00,00,00,04,00,00,00,00,78,27,f9,03,00,00,00,00,4a,00,00,00,01,00,00,00,08,dc,\
+  06,04,24,2a,f9,03,10,dc,06,00,1a,dc,06,00,2c,f0,04,18,10,dc,06,00,00,00,00,00,\
+  00,00,00,00,30,1d,f9,03,00,00,00,00,d4,7d,f7,03,78,df,03,00,68,dc,06,04,24,2a,\
+  f9,03,70,dc,06,00,50,01,06,00,00,00,00,00,03,00,00,00,70,dc,06,00,00,00,00,00,\
+  00,00,00,00,50,01,06,00,00,00,00,00,dc,e5,03,00,01,00,00,00,30,f0,04,18,70,dc,\
+  06,00,00,00,00,00,4c,1e,cd,03,c8,0f,04,00,00,00,00,00,00,00,00,00,03,00,00,00,\
+  00,00,00,00,d4,63,40,47,bc,d9,01,00,2c,fe,01,00,80,f0,04,18,00,00,00,00,00,00,\
+  00,00,00,00,00,00,03,01,00,00,c8,0f,04,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  03,00,00,00,50,01,06,00,c8,0f,04,00,00,00,00,00,00,00,00,06,01,00,00,80,13,00,\
+  00,00,a8,db,06,04,24,2a,f9,03,b0,db,06,00,b0,db,06,00,b0,db,06,00,00,00,00,00,\
+  94,43,04,00,00,00,00,00,30,1d,f9,03,00,00,00,00,44,e3,01,00,00,00,00,00,4c,1e,\
+  cd,03,b0,db,06,00,00,00,00,00,4c,1e,cd,03,00,00,00,00,00,00,00,00,40,d9,11,80,\
+  00,00,00,00,9c,dc,11,80,1c,e2,0f,87,00,00,00,00,c0,65,3e,82,05,08,00,00,00,00,\
+  00,00,00,00,00,00,4c,1e,cd,03,01,00,00,00,f8,59,01,00,34,5a,01,00,f0,a8,01,7c,\
+  bc,5a,01,00,88,ae,05,00,94,c8,ff,ff,00,00,00,00,98,bd,10,80,00,00,00,00,00,00,\
+  00,00,00,00,00,00,40,d9,11,80,00,00,00,00,d8,9a,13,80,00,00,00,00,44,f2,fa,03,\
+  e4,da,f5,86,00,00,00,00,30,6e,3e,82,01,08,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,f0,a8,01,7c,4e,00,00,00,fc,80,f7,03,78,62,f8,03,\
+  00,00,00,00,20,3c,05,00,f0,a8,01,7c,08,5b,01,00,00,00,00,00,30,00,00,00,f0,00,\
+  00,00,10,bf,01,7c,00,00,00,00,40,65,01,7c,00,00,00,00,00,00,00,00,00,00,00,00,\
+  40,65,01,7c,01,00,00,00,c4,c1,01,00,f0,00,00,00,40,65,01,7c,f0,00,00,00,4c,c2,\
+  01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,18,80,5f,59,87,0f,00,00,00,00,00,00,00,1c,e2,0f,87,c0,65,3e,82,d4,6b,\
+  03,87,80,5f,59,87,0f,00,00,00,38,fe,00,f0,54,f2,04,18,0c,b9,10,80,0f,00,00,00,\
+  00,00,00,00,c4,b3,00,f0,4e,00,00,00,38,f4,04,18,00,00,00,00,00,00,00,00,b0,b4,\
+  01,7c,28,f3,04,18,50,8d,10,80,f1,ec,ff,ff,00,00,00,00,00,00,00,00
+"DevCfg"=hex:30,00,00,00,78,00,00,00,10,01,00,00,00,4b,00,00,00,00,08,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\ExtModems\HayesCompat]
+"MODEM"="com"
+"DeviceType"=dword:00000001
+"DeviceExistOrNot"=dword:00000000
+"UseMultLoadItem"=dword:00000001
+"LogOn"=dword:00000000
+"PCUI"="com"
+"DIAG"="com"
